@@ -1,5 +1,5 @@
 ---
-theme: ../tpm-theme
+theme: slidev-theme-tpm
 
 title: UX Development Process
 author: Joseph C. Caswell
@@ -126,10 +126,9 @@ name: Google UX Quote
 
 Google UX Team
 
-<!-- This is what Google has to say on the matter:
-
-UX designers help make technology easier to understand and more enjoyable to use. 
- -->
+<!--
+UX designers help make technology easier to understand and more enjoyable to use.
+-->
 
 ---
 title: UX Design
@@ -163,32 +162,42 @@ A Ferrari supercar is going to be a very different experience from a chrysler mi
 
 ---
 title: UI Design
-layout: image-bottom
-image: /form-controls.png
-width: 437px
 ---
 
 # What is UI Design?
 
 Specific design of controls and layout
 
-UI Design is the process of making interfaces in software or computerized devices with a focus on looks or style.
+<v-click>
 
-Analogous to an engineer designing a door handle, steering wheel, etc
+UI Design is the process of making interfaces with a focus on looks or style.
+</v-click><v-click>
 
 In DriveWorks this is the look, layout, and functionality of the form controls
+</v-click><v-click>
+
+Analogous to an engineer designing a door handle, steering wheel, etc
+</v-click>
+
+<v-click at="-1">
+
+  <img src="/form-controls.png" alt="Form Controls" class="mx-auto" />
+
+</v-click>
 
 <!--
 What about UI? What's the difference?
-User Interface design is the process of designing the individual interfaces that make up the product. In our case, this will be the forms and controls that make up the DriveWorks project. 
 
+[click]User Interface design is the process of designing the individual interfaces that make up the product. 
+
+[click]In our case, this will be the forms and controls that make up the DriveWorks project. 
 How big is your text input? What happens when you type in an invalid input?
 How are the different controls laid out on the screen? How about for a mobile device?
 
 UX and UI are terms that are often used together, but they have disctinct meanings. 
 A UI designer is focused on the specific design of the controls and layout of the product where UX focuses on higher level concepts then that.
 
-Bringing it back to designing cars, this is the point where we are designing the door handles, the steering wheel, the dashboard: all the parts that the user interacts with.
+[click]Bringing it back to designing cars, this is the point where we are designing the door handles, the steering wheel, the dashboard: all the parts that the user interacts with.
 
 Remember, with UX we were focused on the experience as a whole.
 -->
@@ -236,9 +245,10 @@ Any planning work - no matter how crude - will make future execution efforts smo
 
 <!--
 This ties directly into the next reason: planning. 
-Planning can save time, money, and effort, and will make future efforts be smoother.
 
-Working in DriveWorks, we can sink a lot of time into trying to get something work just right. 
+Planning can save time, money, and effort, and will make future efforts smoother.
+
+Working in DriveWorks, we can sink a lot of time into trying to get something to work just right. 
 How often is that time ultimately wasted because we didn't have a clear understanding of what we were trying to accomplish?
 
 Maybe you fought with the oddities of making an HTML email quote, but your customer is frustrated because it can never print out right? 
@@ -279,7 +289,7 @@ You can build on this by incorporating visuals such as images or DriveWorks 3D P
 
 [click] Ultimately, good UX leads to having take less of your valuable time training new users, and less effort fixing things because users input invalid parameters.
 
-[click] You can save yourself from having to reject specifications but not allowing invalid combinations. Catch errors before they happen, and make it easy for the user to fix them
+[click] You can save yourself from having to reject specifications by not allowing invalid combinations. Catch errors before they happen, and make it easy for the user to fix them
 -->
 
 ---
@@ -288,7 +298,7 @@ title: UX - Sales
 
 # Why should you care about UX?
 
-Attractive interfaces entice, and easy to use interfaces retain
+Attractive interfaces entice, and good experiences retain
 
 ## Drive More Sales
 
@@ -296,19 +306,24 @@ Modern interfaces are attractive, and can be a great selling point
 
 Users are more likely to continue to use interfaces that are easy, and they can trust to get the job done
 
+<v-click>
+Rebuild trust and re-engage frustrated customers with a new, intuitive design
+</v-click>
+
 <!--
 In some circumstances, a good UX can drive more sales as well.
 
 DriveWorks Live allows us to have configurators open to the public, not just for internal use.
 
-Doing so, means our user base is larger, more diverse and we have to compete with out websites out there. 
+Doing so means our user base is larger, more diverse, and we have to compete with all the other sites out there. 
 
 You can drive initial interest by having an attractive UI, but, just like anything else, they won't come back unless they had a good experience.
 
-If you have had a configurator for a while it's possible people have built up distrust or an ick factor.
+[click] If you have had a configurator for a while it's possible people have built up distrust or an ick factor.
 Introducing a new, better, more intuitive design is an opportunity for a marketing blast, and a chance to re-engage customers that may have been frustrated with the old design.
 
 Hey everybody try out Configurator 2.0! It's so much easier to use!
+
 -->
 
 ---
@@ -362,7 +377,7 @@ We are not all perfect humans: Everyone has a different set of eyeballs, brain, 
 
 If your implementation is public facing, then folks will be accessing it from different browsers, devices, operating systems, and screen sizes.
 
-During the research phase you will uncover which of these to focus on, so you can accommodate those differences in your UI.
+During the research phase, which we'll cover later, you will uncover which of these to focus on, so you can accommodate those differences in your UI.
 -->
 
 ---
@@ -388,9 +403,9 @@ Everyone benefits from accessibility.
 
 We are surrounded by technology or design descions that, while they may be required for people with certain limitations, they are helpful for everyone.
 
-[click] Take elevators for instance. Here in the US they are required by law by the Americans with Disability Act. But that doesn't mean the rest of us don't use them.
+[click] Take elevators for instance: Here in the US they are required by law by the Americans with Disability Act because that is the only way some folks can get from floor to floor.
 
-[click] Curb cuts is the term for sloping a sidewalk down to a crossing as seen here. This design decision shapes and guides you on where to cross the street. But it's also there to assist those confined to wheelchairs. 
+[click] Curb cuting is the term for sloping a sidewalk down to a crossing as seen here. This design decision shapes and guides you on where to cross the street. But it's also there to assist those confined to wheelchairs. 
 Both elevators and curb cuts assist all of us with our luggage, strollers, bikes, or pulling a cart. 
 
 [click] Having large print, and ensuring there is high contrast between text and it's background vastly improves readability for everyone.
@@ -405,11 +420,8 @@ layout: quote
 
 — Billy Gregory, Senior Accessibility Engineer, The Paciello Group
 
----
-title: Accessibility 3
-layout: image-right
-image: /paint2.png
-backgroundSize: contain
+<!-- “When UX doesn’t consider ALL users, shouldn’t it be known as “SOME User Experience” or… SUX?” -->
+
 ---
 
 # Accessibility
@@ -420,21 +432,8 @@ Readability and simplicity are key
 - Use large, easy to read fonts
 - Use high contrast colors
 
-<v-click>
+<img src="/Contrast-Example.jpg" alt="Contrast Example" class="h-75 ml-30 mt-2">
 
-- Don't rely on color alone to denote meaning
-
-</v-click><v-click>
-
-- Let elements breathe
-- Group like items together
-
-</v-click><v-click>
-
-- Avoid clutter and distractions
-- Every element has a purpose
-
-</v-click>
 
 <!--
 Here are some key things you can do to make your DriveWorks implementation more accessible:
@@ -442,13 +441,71 @@ Here are some key things you can do to make your DriveWorks implementation more 
 Use large, easy to read fonts and make sure there is enough contrast between the text and the background.
 Make sure there is enough space between elements so that they don't run together.
 
-[click] Don't rely on color alone to denote meaning. 
+-->
+
+---
+
+# Accessibility
+
+Don't rely on color alone to denote meaning
+
+<img src="/interface-no-icons.png" alt="Interface without icons" class="h-80 mt-2">
+
+
+<!--
+Don't rely on color alone to denote meaning. 
+
 A majority of us in mechanical and manufacturing engineering are male, and we are 17 times more likely to be color blind then women.
+
+For invalid input don't just turn the outline from green to red...
+-->
+
+---
+
+# Accessibility
+
+Don't rely on color alone to denote meaning
+
+<img src="/interface-with-icons.png" alt="Interface with icons" class="h-80 mt-2">
+
+
+<!--
+...  consider adding a message, or use an icon.
+-->
+
+---
+
+# Accessibility
+
+Don't rely on color alone to denote meaning
+
+<img src="/paint.png" alt="Paint colors with names" class="h-80">
+
+
+<!--
+
 If you have a color picker for paint, make sure to include the color name, not just the color.
-For invalid input don't just turn the outline from green to red, consider changing border thickness as well, or use an icon.
+
+-->
+
+---
+
+# Accessibility
+
+Make sure there is ample space between elements
+
+- Group like items together
+
+- Spread controls out over multiple pages or tabs
+
+- Every element has a purpose
+
+<img src="/grouping.png" alt="Grouping" class="absolute inset-y-0 right-20 max-h-full">
+
+<!--
  
 
-[click] Make sure there is ample space between elements, and group like items together. 
+Make sure there is ample space between elements, and group like items together. 
 Not only is this very helpful for folks with dyslexia or ADHD, but consistent spacing looks more professional, is easier to read, and is easier to understand and navigate.
 Try not to put too many controls on the page, but rather spread them out over multiple pages or tabs.
 
@@ -458,11 +515,18 @@ If a control is is not accepting input either hide it or make it clearly disable
 All of these accessibility tips benefit everyone. 
 -->
 
+
 ---
 title: Roadmap
 ---
 
 # The Design Process Roadmap
+
+<style scoped>
+  li {
+    @apply my-2;
+  }
+</style>
 
 <v-clicks>
 
@@ -527,14 +591,16 @@ The very first step of UX design is the same as the first step in any project: i
 Define what it is that you wish to accomplish with your implementation or redesign.
 Ask yourself, and your other stakeholders what are you trying to achieve? What are you trying to improve?
 
-[click]We just covered many reasons to put effort into making a good UX and many of them align with the reasons you got into DriveWorks in the first place. Probably to make your life easier, less reptitive: and ultimately to make your company more money.
+[click] We just covered many reasons to put effort into making a good UX and many of them align with the reasons you got into DriveWorks in the first place. Probably to make your life easier, less reptitive: and ultimately to make your company more money.
 
-[click]But which of these specifically applies to your company and your implementation? Can you quantify or qualify the improvements you wish to make?
+[click] But which of these specifically applies to your company and your implementation? Can you quantify or qualify the improvements you wish to make?
  -->
 
 ---
 
 # 1.2 Identify Priorities
+
+Priorities dictate focus
 
 - Of your goals, which are the most important?
 - Are there known issues that need to be addressed first?
@@ -542,7 +608,7 @@ Ask yourself, and your other stakeholders what are you trying to achieve? What a
 
 <!-- 
 During this process you may identify several goals. 
-Now it is time prioritize. You can't do everything at once no matter how much we wish we could.
+Now it is time prioritize. We can't do everything at once no matter how much we wish we could.
 
 Identify which goals may be the easiest to implement, or will have the biggest impact.
 
@@ -578,6 +644,8 @@ Does it make sense to have different implementations for different users?
 ---
 
 # 1.4 Identify Resources
+
+No resources, no progress
 
 - Who is going to be working on this project?
   - Do they have the skills and time to do so?
@@ -625,7 +693,7 @@ Do you already know everything about the product, or do you need to get manufact
 - What applications/websites are familiar to your users?
   - Can you use similar patterns?
 
-<!-- Now it's time to move on to the research phase. 
+<!-- It's time to move on to the research phase. 
 
 Now that you have identified who your users are, it's time to learn more about them.
 
