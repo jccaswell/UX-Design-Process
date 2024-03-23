@@ -1,0 +1,39 @@
+{
+  "name": "ux-design-process",
+  "version": "0.8.0",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0",
+    "slidev": ">=0.19.3"
+  },
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export-notes": "slidev export-notes",
+    "export-pdf": "slidev export",
+    "export": "npm run export-notes && npm run export-pdf"
+  },
+  "dependencies": {
+    "@iconify-json/guidance": "^1.1.6",
+    "@iconify-json/icon-park-outline": "^1.1.15",
+    "@iconify-json/mdi": "^1.1.64",
+    "@slidev/types": "^0.48.3",
+    "codemirror-theme-vars": "^0.1.2",
+    "prism-theme-vars": "^0.2.4",
+    "slidev-theme-tpm": "^1.0.0"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.48.3",
+    "playwright-chromium": "^1.42.1"
+  },
+  "slidev": {
+    "colorSchema": "light",
+    "highlighter": "all",
+    "defaults": {
+      "fonts": {
+        "sans": "Poppins",
+        "mono": "Fira Code"
+      }
+    }
+  }
+}
