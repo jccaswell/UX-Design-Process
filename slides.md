@@ -522,7 +522,7 @@ title: Roadmap
 
 # The Design Process Roadmap
 
-<style scoped>
+<style>
   li {
     @apply my-2;
   }
@@ -562,6 +562,19 @@ We'll go through each of these steps in detail.
 
 [click] Lastly, don't forget to continuously get feedback to improve your design
  -->
+
+---
+
+# 1. Identify
+
+<ol style="list-style-type: lower-alpha;">
+  <li>Goals</li>
+
+  
+
+  <li>Priorities</li>
+  <li>Audience</li>
+</ol>
 
 
 ---
@@ -673,6 +686,44 @@ Do you already know everything about the product, or do you need to get manufact
 
 # 2. Research
 
+Ask lots of questions
+
+## Users
+
+- Who are your prospective users?
+
+  - Motivations / Goals
+  - Existing solution / workflow
+  - Pain points
+  - Accessibility needs
+  - Devices / browsers
+  - Region, language, timezone, currency
+
+
+--- 
+
+
+
+
+## Competitors / Alternatives
+
+- Research the competitors and compare their sites
+
+- What are the existing solutions?
+
+
+
+<!-- It's time to move on to the research phase. 
+
+Now that you have identified who your users are, it's time to learn more about them.
+
+And the best way to do so is go out and ask them a bunch of questions. 
+
+What's their current process? What do they like about it? What do they dislike about it? What errors have they encountered? What do they wish it could do? What are their pain points, or what do they find stops or slows them down?
+
+Do they have any accessibility needs? What devices and browsers are they using? What region, language, timezone, currency, etc?
+
+
 - Who are your prospective users?
   - What is their motivation, goals in their role?
   - What is their existing solution?
@@ -692,16 +743,6 @@ Do you already know everything about the product, or do you need to get manufact
   - Take screenshots, make notes
 - What applications/websites are familiar to your users?
   - Can you use similar patterns?
-
-<!-- It's time to move on to the research phase. 
-
-Now that you have identified who your users are, it's time to learn more about them.
-
-And the best way to do so is go out and ask them a bunch of questions. 
-
-What's their current process? What do they like about it? What do they dislike about it? What errors have they encountered? What do they wish it could do? What are their pain points, or what do they find stops or slows them down?
-
-Do they have any accessibility needs? What devices and browsers are they using? What region, language, timezone, currency, etc?
  -->
 
 ---
