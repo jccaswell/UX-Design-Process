@@ -20,7 +20,7 @@
     "@slidev/types": "^0.48.3",
     "codemirror-theme-vars": "^0.1.2",
     "prism-theme-vars": "^0.2.4",
-    "slidev-theme-tpm": "^1.0.1"
+    "slidev-theme-tpm": "^1.0.2"
   },
   "devDependencies": {
     "@slidev/cli": "^0.48.3",
