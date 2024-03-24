@@ -357,7 +357,7 @@ All affecting your bottom line
 
 ---
 title: Accessibility
-layout: image-right
+layout: image-left
 image: /accessibility-medium.webp
 backgroundSize: contain
 ---
@@ -382,7 +382,7 @@ During the research phase, which we'll cover later, you will uncover which of th
 
 ---
 title: Accessibility 2
-layout: image-right
+layout: image-left
 image: /curb-cut.jpg
 backgroundSize: fit
 ---
@@ -496,6 +496,10 @@ If you have a color picker for paint, make sure to include the color name, not j
 -->
 
 ---
+layout: image-left
+image: /grouping.png
+backgroundSize: contain
+---
 
 # Accessibility
 
@@ -509,7 +513,7 @@ Layout
 
 - Every element has a purpose
 
-<img src="/grouping.png" alt="Grouping" class="absolute inset-y-0 right-20 max-h-full">
+<!-- <img src="/grouping.png" alt="Grouping" class="absolute inset-y-0 right-20 max-h-full"> -->
 
 <!--
 
@@ -647,7 +651,7 @@ Are these goals more important then what you or your team are currently working 
 -->
 
 ---
-layout: image-right
+layout: image-left
 image: /Audience.svg
 backgroundSize: contain
 ---
@@ -872,7 +876,7 @@ Once you are done, take a step back and see if any of the ideas stand out to you
 
 
 ---
-layout: image-right
+layout: image-left
 image: /flowchart.png
 backgroundSize: contain
 ---
@@ -882,10 +886,6 @@ backgroundSize: contain
 Hollistic map of the user experience
 
 <v-click>
-
-Pen and paper, LucidChart, PowerPoint, whatever you are comfortable with
-
-</v-click><v-click>
 
 - Map the flow of the user through the implementation
 
@@ -982,6 +982,11 @@ We have captured the user flow or user journey, now it is time to start visualiz
 layout: two-cols
 ---
 
+
+<img src="/grouping2.png" v-after class="h-100" />
+
+::right::
+
 # Wireframe
 
 Low fidelity mockup of layout and groupings
@@ -992,10 +997,6 @@ Low fidelity mockup of layout and groupings
 2. Distinct pages/forms
 3. Groupings
 </v-clicks>
-
-::right::
-
-<img src="/grouping2.png" v-after class="" />
 
 <!--
 A wireframe is a low fidelity mockup of the various pages and controls. It is meant to be quick and easy to iterate on. It is not meant to be a final product, rather a way to quickly and easily visualize the layout and functionality of the configurator.
@@ -1053,25 +1054,23 @@ image: /figma-example.png
 
 # Figma
 
-<!-- - Industry leading software for UI design
-- Quickly iterate through ideas
-- Focus on design while isolating from minutia of implementation
-- Excels at collaboration
-  - Can have multiple people work on it at once, unlike DriveWorks Project Form Designer
-  - Can capture comments right on design
-  - Use "Present" mode to create links to share with stakeholders earlier in process
-  - Use "Dev" mode to easily identify spacing, position, styles
-- Don't need to be Technical to design or modify
-  - Can be handed off to graphic/web designer without DriveWorks license
-  - Professional alignment, spacing, grouping without variables
-  - GUI to quickly and easily design and have it write CSS for you
-- Can create assets and reuse them (or modify them later)
-  - Icons
-  - Form Controls
-  - Metadata tags
-- Frames in Figma are meant to group items: encouraged to use same thought process with Frame Controls
-- You can create a navigable website to test with users
-- Component Guide can be made from "components" like master files in DriveWorks -->
+<!--
+
+For your wireframe and prototype, which we will discuss momentarily, you may wish to use a purpose built tool like Figma or Adobe XD.
+
+Figma is an industry leader for UI design and is used by many companies for their design process.
+
+It allows you to quickly iterate through ideas, focus on design while isolating from the minutia of implementation, and excels at collaboration.
+
+You can have multiple people work on it at once, unlike DriveWorks Project Form Designer, and can capture comments right on the design.
+
+We will talk more about it ability to make interactive prototypes in the next section.
+
+There is a free tier, and it is easy to learn and use, with tons of free tutorials from their site and YouTube.
+
+Adobe XD is a very similar tool, but it is currently under redevelopment and is unavailable for download.
+
+-->
 
 ---
 layout: section
@@ -1086,6 +1085,8 @@ A prototype is a high fidelity mockup of the various pages and controls.
 It is meant to be a way to quickly and easily visualize the layout and functionality of the configurator.
 
 Just like making a mechanical prototype, this is meant to be a representation of the final product to test out.
+
+As such, using a purpose built tool is recommended. Figma and Adobe XD are industry leaders, but if needed, Indesign, Publisher, Photoshop, or even PowerPoint can be used.
 -->
 
 ---
@@ -1129,7 +1130,7 @@ image: /component-guide.png
 # Components
 
 - Start small and work up
-- Use variables to keep things consistent
+- Keep sizing consistent
 - Consider different sizes and states
 
 <!-- 
@@ -1145,22 +1146,38 @@ If we are working in Figma or Adobe XD, we can make a master for each component,
 -->
 
 ---
+layout: image-left
+image: /devices.webp
+backgroundSize: contain
+---
+
+# Prototype
+
+High fidelity mockup
+
+- Mockup each distinct page
+
+- Consider different device sizes
+
+- Link pages together
+
+- Share with stakeholders
+
+- ITERATE ITERATE ITERATE
 
 <!--
-As such, using a purpose built tool is recommended. Figma and Adobe XD are industry leaders, but if needed, Indesign, Publisher, Photoshop, or even PowerPoint can be used.
 
-1. Using your brand guidelines, start by setting the fonts, colors, logos, etc.
-2. Start with the overall layout (header, sidebar, main content, etc.)
-3. Design the controls and groupings - the component guide
-   - DriveWorks gives several types of inputs, but you may have multiple label types for example (heading, validation, information, etc)
-   - Make a master for each component, and use that master throughout the design
-4. Make a prototype for each of your distinct pages / forms
-   - You don't have to mockup each page, but you should mockup each distinct layout
-   - Make additional prototypes for different screen sizes (if applicable)
-     - mobile, laptop, half screen, etc
-5. Get feedback from stakeholders
-6. Iterate, iterate, iterate
-7. Finally, save as a pdf and get it signed off by stakeholders -->
+Now you are ready to put it all together. For each page that is distinctly different, make a page in Figma, or the software of your choice. 
+
+If you identified that your users will be accessing this from different devices, make sure to make a prototype for each of those devices. 
+
+Before you show your stakeholder, make sure it is clear how a user would navigate from one page to another. Figma even has a prototype function that allow you to link pages together like a slideshow, or even link clicking buttons to navigate to different pages. This prototype can be shared with others using a link that shares this interactive prototype. 
+
+The less your testers have to think about how to navigate, the more they can focus on the design itself and provide accurate feedback. 
+
+Take this feedback and iterate on the design. Once you have a design that everyone is happy with, be sure to export it as a PDF, and get a sign off, whether literal, or just a confirmation email.
+
+-->
 
 
 ---
@@ -1180,18 +1197,55 @@ This is it, the final step. It's time to implement everything you have designed.
 ---
 layout: image
 image: /DW-Form-Designer.png
-width: 80%;
+width: 70%;
 ---
 
 # Implement
 
+DriveWorks Form Designer
+
+- Create a component collection
+- Use variables (or Constants) for sizing
+- Consider grouping controls and display them using Frame Controls
+
 <!-- 
 
-Use your component guide to make a form that has an example of each of the items (or groups) you need.
+Use your component guide to make a form that has an example of each of the items (or groups) you need. This way you can set any properties here, and simply copy and paste when you need a new one. You can find an example of this in the responsive form template.
 
 Use variables wherever possible to keep things consistent. If you set the standard width of a control via a variable you can edit it from anywhere as opposed to finding the original control and changing it.
 
 You may wish to set your brand colors and fonts in either CSS variables or DriveWorks variables. This makes it easier for others to contribute and not have to train them on your brand guidelines.
+
+Remember those groupings you made during the Prototype phase? These can become Frame Controls in DriveWorks. This way you can group controls together and move them around as a single unit.d
+
+-->
+
+---
+
+# CSS
+
+<img src="/form-controls.png" alt="CSS Example" class="h-30" />
+
+<div class="w-150">
+
+```css
+[data-metadata*="caption-above"]::part(label),
+dw-date-picker[data-metadata*="caption-above"] {
+	display: block;
+}
+
+dw-text-box[data-metadata*="caption-above"]::part(input),
+dw-numeric-text-box[data-metadata*="caption-above"]::part(input),
+dw-combo-box[data-metadata*="caption-above"]::part(input-wrap),
+dw-measurement-text-box[data-metadata*="caption-above"]::part(measurement-input),
+dw-spin-button[data-metadata*="caption-above"]::part(spin-button),
+dw-date-picker[data-metadata*="caption-above"]::part(input) {
+	margin-top: .5rem;
+}
+```
+</div>
+
+<!--
 
 If you are using DriveWorks 21+, you can use CSS to style your components.
 This allows for way more customization than DriveWorks alone, and can be used to match your brand guidelines. It can also allow advanced styling such as animations, shadows, on hover effects, etc.
@@ -1202,7 +1256,8 @@ As a general rule, all of the functionality of the forms should work with CSS di
 
 If this is available via the web, make sure to test it on different devices and browsers. (Mostly applicable if you are using CSS)
 
-Test it against a small group of users, and get feedback before rolling it out to everyone. -->
+Test it against a small group of users, and get feedback before rolling it out to everyone.
+ -->
 
 ---
 
@@ -1210,7 +1265,9 @@ Test it against a small group of users, and get feedback before rolling it out t
 
 <img src="/feedback.jpg" class="h-110 mx-auto" />
 
-<!-- Your job is never done: you can always take feedback and improve.
+<!-- 
+
+Even when you do publish it, your job is never done: you can always take feedback and improve.
 
 More objectively, the goal of this exercise was to make things better for your users, and how do you know if you have done that if you don't ask them?
 
