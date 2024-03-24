@@ -426,7 +426,7 @@ layout: quote
 layout: image
 image: /Contrast-Example.jpg
 alt: Contrast Example
-height: 60%
+height: 55%
 ---
 
 # Accessibility
@@ -557,41 +557,39 @@ title: Roadmap
 5. Wireframe
 6. Prototype
 7. Implement
-8. Feedback loop
+
+<br>
+
+<pajamas-repeat /> Feedback loop
 
 <img src="/StreamlineArrowRoadmap.svg" alt="Roadmap" class="h-80 absolute bottom-20 right-10">
 
 <!-- 
-[click] One: Identify your goals, audience, and priorities
+The design process occurs in a series of phases, each building on the last.
 
-[click] Two: Research your users, competitors, and alternatives
+We'll start by identifying, researching, and planning our project.
 
-[click] Three: Plan your project, timeline, and resources
+Then we'll move on to conceptual design, wireframing, and prototyping and we'll touch on some software that can help with that.
 
-[click] Four: Conceptualize: brainstorm, sketch, and ideate
+And once we have a design we are happy with, we'll move on to implementing it in DriveWorks.
 
-[click] Five: Wireframe: create quick low fidelity mockups of your pages
+Along the way we'll make sure to get feedback from stakeholders and users to make sure we are on the right track, and even once deployed, there's always room for improvement by collecting feedback.
 
-[click] Then, build a prototype to get feedback from stakeholders
+-->
 
-[click] Now you're ready to Implement your design in DriveWorks
-
-[click] Lastly, don't forget to continuously get feedback to improve your design
- -->
-
+---
+layout: section
 ---
 
 # 1. Identify
 
-<ol style="list-style-type: lower-alpha;">
-  <li>Goals</li>
+Goals, Priorities, Audience, Resources
 
-  
+<!-- 
+The very first step of UX design is the same as the first step in any project: identifying and prioritizing your goals, specifying your audience, and identifying the resources you have available. 
 
-  <li>Priorities</li>
-  <li>Audience</li>
-</ol>
-
+This will likely involve project managers or department heads, and is an exercise that you may have already done when you first started your DriveWorks implementation.
+ -->
 
 ---
 
@@ -616,13 +614,16 @@ Aimless Effort without goals may be waisted
 </v-click>
 
 <!-- 
-The very first step of UX design is the same as the first step in any project: identify your goals.
-Define what it is that you wish to accomplish with your implementation or redesign.
+First up is the goals.
+
+Define, if you haven't already, what it is that you wish to accomplish with your implementation or redesign.
 Ask yourself, and your other stakeholders what are you trying to achieve? What are you trying to improve?
 
 [click] We just covered many reasons to put effort into making a good UX and many of them align with the reasons you got into DriveWorks in the first place. Probably to make your life easier, less reptitive: and ultimately to make your company more money.
 
 [click] But which of these specifically applies to your company and your implementation? Can you quantify or qualify the improvements you wish to make?
+
+During this process you may identify several goals. So...
  -->
 
 ---
@@ -636,8 +637,7 @@ Priorities dictate focus
 - Is this more important then what you are currently working on?
 
 <!-- 
-During this process you may identify several goals. 
-Now it is time prioritize. We can't do everything at once no matter how much we wish we could.
+... now it is time prioritize. We can't do everything at once no matter how much we wish we could.
 
 Identify which goals may be the easiest to implement, or will have the biggest impact.
 
@@ -646,6 +646,10 @@ Does it make sense to roll changes out incrementally, or should you do a complet
 Are these goals more important then what you or your team are currently working on?
 -->
 
+---
+layout: image-right
+image: /Audience.svg
+backgroundSize: contain
 ---
 
 # 1.3 Identify Audience
@@ -668,6 +672,10 @@ Will this be used by internal designers or administrators?
 Will you have anonymous users or will everyone have to login?
 
 Does it make sense to have different implementations for different users?
+
+Will you prioritize one group over another?
+
+You will likely use the groups you identify here as the baiss for Teams in DriveWorks Security.
  -->
 
 ---
@@ -699,12 +707,24 @@ Do you already know everything about the product, or do you need to get manufact
  -->
 
 ---
+layout: section
+---
 
 # 2. Research
 
-Ask lots of questions
+Users, Competitors, Alternatives
 
-## Users
+<!-- 
+Our next step in the design journey is research.
+
+We need to find out more about our users, our competitors, and what alternatives are out there.
+ -->
+
+---
+
+# 2.1 Research Users
+
+Ask lots of questions
 
 - Who are your prospective users?
 
@@ -717,11 +737,16 @@ Ask lots of questions
 
 
 --- 
+layout: image
+image: /User Persona.svg
+---
+
+# 2.1 User Personas
 
 
+---
 
-
-## Competitors / Alternatives
+# 2.2 Competitors / Alternatives
 
 - Research the competitors and compare their sites
 
