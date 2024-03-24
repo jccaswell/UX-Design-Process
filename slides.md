@@ -199,7 +199,7 @@ A UI designer is focused on the specific design of the controls and layout of th
 
 [click]Bringing it back to designing cars, this is the point where we are designing the door handles, the steering wheel, the dashboard: all the parts that the user interacts with.
 
-Remember, with UX we were focused on the experience as a whole.
+Remember, with UX we are focused on the experience as a whole.
 -->
 
 ---
@@ -221,7 +221,7 @@ User acceptance is the #1 reason for DriveWorks implementations to encounter ser
 <!--
 So why should we, as DriveWorks administrators care about user experience?
 
-[click] #1: User Adoption
+[click] It's all about User Adoption
 
 You need people to actually use your configurator for it to be successful and ease of use is the best way to attract and retain users. Not hitting that mark is the number one reason for implementations to be unsuccessful.
 
@@ -561,12 +561,9 @@ title: Roadmap
 5. Wireframe
 6. Prototype
 7. Implement
+8. Feedback loop
 
-<br>
-
-<pajamas-repeat /> Feedback loop
-
-<img src="/StreamlineArrowRoadmap.svg" alt="Roadmap" class="h-80 absolute bottom-20 right-10">
+<img src="/StreamlineArrowRoadmap.svg" alt="Roadmap" class="h-80 absolute bottom-20 right-60">
 
 <!-- 
 The design process occurs in a series of phases, each building on the last.
@@ -1292,7 +1289,7 @@ You can collect feedback and use it to decide what to change next and how, makin
 8. [Feedback loop](#8-feedback-loop) - Continuously improve
 </v-clicks>
 
-<img src="/StreamlineArrowRoadmap.svg" alt="Roadmap" class="h-80 absolute bottom-20 right-10" />
+<img src="/StreamlineArrowRoadmap.svg" alt="Roadmap" class="h-80 absolute bottom-20 right-60" />
 
 <!-- 
 
