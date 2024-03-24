@@ -59,7 +59,7 @@ hideInToc: true
 
 # Overview
 
-High level design process for anyone with a new or existing DriveWorks implementation.
+High level process for anyone with a new or existing DriveWorks implementation.
 <br><br>
 
 ### [What is UX/UI Design and why should you care?](#what-is-ux-design)
@@ -842,14 +842,40 @@ layout: section
 
 The Big Picture
 
+<!-- 
+We have identified our goals, audience, and resources, and have done our research.
+
+Now it is time put it all together and start sketching up some ideas.
+
+-->
+
+---
+layout: image
+image: /sketched-ui-wireframe.webp
+---
+
+# Pen and Paper
+
+<!--
+This is the time for pencil and paper, or a whiteboard, or even using scissor to cut up some screenshots you took.
+
+We are all familiar with the "back of the napkin" phase of invention or design, and this is pretty much that.
+
+Brainstorm is all about letting ideas flow quickly, not worrying about the details and not letting our anxiety about the final product get in the way.
+
+Feel free to jump in and ideate or sketch on any ideas you have. Whether it be the process as a whole, the form layout, or even the controls themselves. 
+
+This phase is called conceptual design, or "the big picture."
+-->
+
 
 ---
 
 # Flow Diagrams
 
 
+
 <!-- 
-It's time to document everything you have identified and discovered.
 
 Start with high level concepts and work your way down to the details.
 
@@ -877,7 +903,7 @@ Make sure to include, not just pages, but also states the user may be in, such a
 
 ### Flow Diagram Software
 
-If you have something already, use that. If you know something already, use that. Talk with your company with what others are using or what you have licenses for. Consider these:
+<!-- If you have something already, use that. If you know something already, use that. Talk with your company with what others are using or what you have licenses for. Consider these:
 
 - Figma has an option called FigJam
   - Easier to learn Figma + FigJam then Figma + other software
@@ -890,13 +916,13 @@ If you have something already, use that. If you know something already, use that
   - AI assist
 - PowerPoint
   - Likely already have license(s)
-  - Likely already know the software
+  - Likely already know the software -->
 
 ---
 
 # 5. Wireframe
 
-A wireframe is a low fidelity mockup of the various pages and controls. It is meant to be quick and easy to iterate on. It is not meant to be a final product, rather a way to quickly and easily visualize the layout and functionality of the configurator.
+<!-- A wireframe is a low fidelity mockup of the various pages and controls. It is meant to be quick and easy to iterate on. It is not meant to be a final product, rather a way to quickly and easily visualize the layout and functionality of the configurator.
 
 Don't worry about colors, fonts, etc, rather focus on layout and functionality.
 
@@ -909,11 +935,13 @@ Use technology you are comfortable with. Pen and paper, whiteboard, cut out piec
    - 3DPreview, images, data records
    - Are some inputs invalid? How do you display that to the user?
 3. Create a list of pages / forms and what controls are needed on each
-4. Try different layouts and groupings, and get feedback from stakeholders
+4. Try different layouts and groupings, and get feedback from stakeholders -->
 
 ---
 
 # 6. Prototype
+
+
 
 <!-- A prototype is a high fidelity mockup of the various pages and controls. It is meant to be a representation of the final product, outside of DriveWorks. It is meant to be a way to quickly and easily visualize the layout and functionality of the configurator.
 
