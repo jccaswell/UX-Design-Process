@@ -460,7 +460,9 @@ Don't rely on color alone to denote meaning.
 
 A majority of us in mechanical and manufacturing engineering are male, and we are 17 times more likely to be color blind then women.
 
-For invalid input don't just turn the outline from green to red...
+Let's take a look at this interface. It's a simple form with a few inputs with some user validation.
+If we rely on just the color of the border to determin valid input, not everyone may be able to tell if the input is valid or not.
+
 -->
 
 ---
@@ -473,7 +475,7 @@ Don't rely on color alone to denote meaning
 
 
 <!--
-...  consider adding a message, or use an icon.
+Here we have modified it to include not only an icon, but also a text label telling the user what is wrong with the input.
 -->
 
 ---
@@ -487,9 +489,6 @@ height: 70%
 
 Don't rely on color alone to denote meaning
 
-<!-- <img src="/paint.png" alt="Paint colors with names" class="h-80"> -->
-
-
 <!--
 
 If you have a color picker for paint, make sure to include the color name, not just the color.
@@ -500,7 +499,9 @@ If you have a color picker for paint, make sure to include the color name, not j
 
 # Accessibility
 
-Make sure there is ample space between elements
+Layout
+
+ - Ensure adequeate spacing between elements
 
 - Group like items together
 
@@ -511,49 +512,56 @@ Make sure there is ample space between elements
 <img src="/grouping.png" alt="Grouping" class="absolute inset-y-0 right-20 max-h-full">
 
 <!--
- 
 
-Make sure there is ample space between elements, and group like items together. 
-Not only is this very helpful for folks with dyslexia or ADHD, but consistent spacing looks more professional, is easier to read, and is easier to understand and navigate.
-Try not to put too many controls on the page, but rather spread them out over multiple pages or tabs.
+We can consider making things accessible to those with dsylexia or ADHD by making sure there is ample space between elements, and grouping like items together. 
 
-[click] Along the same lines, don't have items on the page just because. Everything on the page should have a purpose: function, information, or grouping.
-If a control is is not accepting input either hide it or make it clearly disabled.
+Let's take a look at this interface from Microsoft Office:
 
-All of these accessibility tips benefit everyone. 
+We have 3 sections of controls, each related to each other: labeled, grouped, and spaced out.
+
+Then, there is a live preview of the changes you have made. 
+
+There's too many controls to fit on a single page, so they have seperated them into tabs. 
+
+With this selection, one of the checkboxes is not available and they have made it obvious by graying it out.
+
+This is an accessible, easy to follow design, and not difficult to implement.
+
 -->
+
+---
+layout: section
+---
+
+# The Design Process
+
+<!-- 
+We've learned about why UX and UI design are important, and what they are.
+
+and we've discussed the importance of accessibility.
+
+Now let's walk through the design process step by step.
+ -->
 
 
 ---
 title: Roadmap
 ---
 
-# The Design Process Roadmap
+# Design Process Roadmap
 
-<style>
-  li {
-    @apply my-2;
-  }
-</style>
-
-<v-clicks>
-
-1. [Identify](#1-identify) - Goals, Priorities, Audience, Resources
-2. [Research](#2-research) - Users, Competitors, Alternatives
-3. [Plan](#3-plan) - Project, Timeline, Resources
-4. [Conceptual Design](#4-conceptual-design) - Brainstorm, Sketch, Ideate
-5. [Wireframe](#5-wireframe) - Quick low fidelity mockups
-6. [Prototype](#6-prototype) - High fidelity mockups
-7. [Implement](#7-implement) - Build in DriveWorks
-8. [Feedback loop](#8-feedback-loop) - Continuously improve
-</v-clicks>
+1. Identify
+2. Research
+3. Plan
+4. Conceptual Design
+5. Wireframe
+6. Prototype
+7. Implement
+8. Feedback loop
 
 <img src="/StreamlineArrowRoadmap.svg" alt="Roadmap" class="h-80 absolute bottom-20 right-10">
 
 <!-- 
-Now that we've learned about what UX and UI design are, and why they are important, let's take a look at the design process roadmap.
-We'll go through each of these steps in detail. 
-
 [click] One: Identify your goals, audience, and priorities
 
 [click] Two: Research your users, competitors, and alternatives
@@ -780,8 +788,6 @@ This is also known as "The Big Picture."
 What are some things you have seen in other sites that you are inspired by?
 
 ---
-<!-- Slide Styling -->
----
 
 ### 4.2. Define the problem(s) you wish to solve and a way to measure success
 
@@ -791,8 +797,6 @@ What are some things you have seen in other sites that you are inspired by?
 - Reduce number of rejected quotes by implementing logic to prevent invalid configurations
 - Decrease time between quote request and quote delivery by making the configurator require less manual input
 
----
-<!-- Slide Styling -->
 ---
 
 ### 4.3. Create User Personas: Typically 1 per user type (Team)
@@ -805,8 +809,6 @@ What are some things you have seen in other sites that you are inspired by?
 - Review this with stakeholders to ensure it matches their understanding
 
 ---
-<!-- Slide Styling -->
----
 
 ### 4.4. Define user workflows
 
@@ -817,8 +819,6 @@ What are some things you have seen in other sites that you are inspired by?
 - Which Teams use each workflow?
 
 ---
-<!-- Slide Styling -->
----
 
 ### 4.5. Define Design Principles and Guidelines
 
@@ -828,8 +828,6 @@ Use everything you have gathered so far and work with other stakeholders on defi
 - "We want to match the design of our website"
 - "We want to ensure that the configurator is accessible to users in North America"
 
----
-<!-- Slide Styling -->
 ---
 
 ### 4.6. Draw a flow diagram
@@ -846,8 +844,6 @@ Make sure to include, not just pages, but also states the user may be in, such a
 - Collect feedback from stakeholders
 - ITERATE ITERATE ITERATE
 
----
-<!-- Slide Styling -->
 ---
 
 ### Flow Diagram Software
@@ -868,8 +864,6 @@ If you have something already, use that. If you know something already, use that
   - Likely already know the software
 
 ---
-<!-- Slide Styling -->
----
 
 # 5. Wireframe
 
@@ -888,8 +882,6 @@ Use technology you are comfortable with. Pen and paper, whiteboard, cut out piec
 3. Create a list of pages / forms and what controls are needed on each
 4. Try different layouts and groupings, and get feedback from stakeholders
 
----
-<!-- Slide Styling -->
 ---
 
 # 6. Prototype
@@ -916,8 +908,6 @@ As such, using a purpose built tool is recommended. Figma and Adobe XD are indus
 7. Finally, save as a pdf and get it signed off by stakeholders
 
 ---
-<!-- Slide Styling -->
----
 
 # Figma
 
@@ -942,8 +932,6 @@ As such, using a purpose built tool is recommended. Figma and Adobe XD are indus
 - Component Guide can be made from "components" like master files in DriveWorks
 
 ---
-<!-- Slide Styling -->
----
 
 # 7. Implement
 
@@ -965,8 +953,6 @@ If this is available via the web, make sure to test it on different devices and 
 Test it against a small group of users, and get feedback before rolling it out to everyone.
 
 ---
-<!-- Slide Styling -->
----
 
 # 8. Feedback loop
 
@@ -977,7 +963,45 @@ More objectively, the goal of this exercise was to make things better for your u
 If you had an existing configurator, maybe you decided to take baby steps and only change a few things. You can collect feedback and use it to decide what to change next and how, making sure you stay true to your objectives, priorities, and principles.
 
 ---
-<!-- Slide Styling -->
+
+# Design Process Roadmap
+
+
+1. [Identify](#1-identify) - Goals, Priorities, Audience, Resources
+
+<v-clicks>
+
+2. [Research](#2-research) - Users, Competitors, Alternatives
+3. [Plan](#3-plan) - Project, Timeline, Resources
+4. [Conceptual Design](#4-conceptual-design) - Brainstorm, Sketch, Ideate
+5. [Wireframe](#5-wireframe) - Quick low fidelity mockups
+6. [Prototype](#6-prototype) - High fidelity mockups
+7. [Implement](#7-implement) - Build in DriveWorks
+8. [Feedback loop](#8-feedback-loop) - Continuously improve
+</v-clicks>
+
+<img src="/StreamlineArrowRoadmap.svg" alt="Roadmap" class="h-80 absolute bottom-20 right-10" />
+
+<!-- 
+We'll go through each of these steps in detail. 
+
+[click] One: Identify your goals, audience, and priorities
+
+[click] Two: Research your users, competitors, and alternatives
+
+[click] Three: Plan your project, timeline, and resources
+
+[click] Four: Conceptualize: brainstorm, sketch, and ideate
+
+[click] Five: Wireframe: create quick low fidelity mockups of your pages
+
+[click] Then, build a prototype to get feedback from stakeholders
+
+[click] Now you're ready to Implement your design in DriveWorks
+
+[click] Lastly, don't forget to continuously get feedback to improve your design
+ -->
+
 ---
 
 # Closing Remarks
