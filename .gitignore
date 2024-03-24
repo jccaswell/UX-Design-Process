@@ -1,9 +1,4 @@
 node_modules
-.DS_Store
+package-lock.json
 dist
-*.local
-index.html
-.remote-assets
-.idea/
-components.d.ts
 .vscode
