@@ -915,22 +915,58 @@ How do different pages/forms interact with each other? What sources do they send
 
 ---
 
-### Flow Diagram Software
+# Flow Diagram Software
 
-<!-- If you have something already, use that. If you know something already, use that. Talk with your company with what others are using or what you have licenses for. Consider these:
 
-- Figma has an option called FigJam
-  - Easier to learn Figma + FigJam then Figma + other software
-  - Integrates well with Figma
-  - Consolidated licensing
-- LucidChart is industry leader
-- integrates with Professional services such as SalesForce, Microsoft Office
-  - Use LucidSpark to quickly capture ideas, then LucidChart to make flow diagram
-  - Most features, most templates
-  - AI assist
-- PowerPoint
-  - Likely already have license(s)
-  - Likely already know the software -->
+<div class="flex flex-col space-y-16">
+  <img src="/powerpoint-2.svg" alt="PowerPoint" class="h-20 mt-4" />
+  <img src="/Lucidchart.svg" alt="LucidChart" class="h-20 mt-4" />
+  <img src="/figma.svg" alt="Figma" class="h-20 mt-4" />
+</div>
+
+
+<!-- 
+Because of this need to collaborate and iterate you may wish to use a software tool to help you with this process.
+
+There are many options out there and the importance is familiarity and stakeholder buy-in.
+
+So, if you are using something already for diagramming your data flow or processes, use that.
+
+Ask around your company and see what you might have licenses for.
+You may already know and own PowerPoint, and that can work. 
+But for more purpose built tools take a look at FigJam or LucidChart: both of which have free tiers.
+
+-->
+
+---
+layout: image
+image: /lucidchart_flow.webp
+---
+
+# Flow Diagram - LucidChart
+
+<!--
+LucidChart is industry leader for flow diagrams and is used by many companies for their design process.
+
+It has the most feature and templates of any software, as far as I am aware and integrates with many professional services such as SalesForce and Microsoft Office.
+
+Your company may already have a license for it, so it's worth checking out.
+-->
+
+---
+layout: image
+image: /FigJam.webp
+---
+
+# Flow Diagram - FigJam
+
+<!--
+Figma is a design software that we will take a look at later and it has a tool called FigJam that is meant for realtime collaboration and mindmapping.
+
+If you are completely new to all of them it may be easier to learn Figma and FigJam then Figma and another software and the two integrate well together.
+
+-->
+
 
 ---
 
