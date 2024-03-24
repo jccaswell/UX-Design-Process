@@ -979,8 +979,7 @@ We have captured the user flow or user journey, now it is time to start visualiz
 
 
 ---
-layout: image-left
-image: /grouping2.png
+layout: two-cols
 ---
 
 # Wireframe
@@ -992,8 +991,11 @@ Low fidelity mockup of layout and groupings
 1. Overall layout
 2. Distinct pages/forms
 3. Groupings
-
 </v-clicks>
+
+::right::
+
+<img src="/grouping2.png" v-after class="" />
 
 <!--
 A wireframe is a low fidelity mockup of the various pages and controls. It is meant to be quick and easy to iterate on. It is not meant to be a final product, rather a way to quickly and easily visualize the layout and functionality of the configurator.
