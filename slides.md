@@ -908,6 +908,8 @@ How do different pages/forms interact with each other? What sources do they send
 
 [click] Remember, map their experience, not just the pages. This means documenting what caused them to decide to use it, what software might they be accessing the link from, what do they expect to get in return, and when.
 
+If different user groups have very different journeys then you may wish to have different flow diagrams for each.
+
 [click] User flow and user states are not that different from specification flow and states. In fact, many of these states may be the same: submitted for approval, awaiting CAD generation, etc.
 
 [click] Make sure to include your other stakeholders in this process, and iterate on the design as needed.
@@ -948,7 +950,7 @@ image: /lucidchart_flow.webp
 <!--
 LucidChart is industry leader for flow diagrams and is used by many companies for their design process.
 
-It has the most feature and templates of any software, as far as I am aware and integrates with many professional services such as SalesForce and Microsoft Office.
+It has the most feature and templates of any of these software, and integrates with many professional services such as SalesForce and Microsoft Office.
 
 Your company may already have a license for it, so it's worth checking out.
 -->
@@ -969,23 +971,81 @@ If you are completely new to all of them it may be easier to learn Figma and Fig
 
 
 ---
+layout: section
+---
 
 # 5. Wireframe
 
-<!-- A wireframe is a low fidelity mockup of the various pages and controls. It is meant to be quick and easy to iterate on. It is not meant to be a final product, rather a way to quickly and easily visualize the layout and functionality of the configurator.
+<!-- 
+We have captured the user flow or user journey, now it is time to start visualizing the layout and functionality. We do this by making a wireframe.
+-->
 
-Don't worry about colors, fonts, etc, rather focus on layout and functionality.
 
-Use technology you are comfortable with. Pen and paper, whiteboard, cut out pieces of paper, Figma, PowerPoint, etc.
+---
+layout: image-left
+image: /grouping2.png
+---
 
-1. Start drawing the overall layout (header, sidebar, main content, etc.)
-2. Which controls should be grouped together? How are they laid out?
-   - How do the controls/groups interact with each other?
-   - What information need to be displayed to the user?
-   - 3DPreview, images, data records
-   - Are some inputs invalid? How do you display that to the user?
-3. Create a list of pages / forms and what controls are needed on each
-4. Try different layouts and groupings, and get feedback from stakeholders -->
+# Wireframe
+
+Low fidelity mockup of layout and groupings
+
+<v-clicks>
+
+1. Overall layout
+2. Distinct pages/forms
+3. Groupings
+
+</v-clicks>
+
+<!--
+A wireframe is a low fidelity mockup of the various pages and controls. It is meant to be quick and easy to iterate on. It is not meant to be a final product, rather a way to quickly and easily visualize the layout and functionality of the configurator.
+
+Don't worry about colors, fonts, or even verbiage, rather focus on layout and functionality.
+
+[click] Start by designing the overall layout of the configurator. This could be the header, sidebar, main content, etc.
+
+[click] Then move on to the distinct pages or forms that the user will interact with. This could be the Login or account creation page, the main configurator page, the results page, etc.
+It's fine at this point to leave the main content area blank, or with a placeholder like an X. 
+
+[click] Group controls into components, as seen here, or like we saw with the Microsoft Office example.
+Try different layouts and groupings, and get feedback from stakeholders 
+
+-->
+
+---
+layout: image
+image: /sketched-wireframe.webp
+---
+
+# Wireframe Draft
+
+<!-- 
+Capture this using whatever technology you are comfortable with.
+
+Moving groups of controls around in software is trivial, but if you are hand drawing you may wish to cut them out and move them around.
+
+Some people start with pen and paper to capture their thoughts, then move to a digital tool for more polished versions.
+
+This is an example of a hand drawn wireframe draft of a single page...
+-->
+
+---
+layout: image
+image: /wireframe.png
+---
+
+# Wireframe - Figma
+
+<!--
+... and here are a few pages mocked up in Figma.
+
+This could also have been made other design software like Adobe XD, InDesign, Publisher, or even PowerPoint. 
+
+I gently advise against using raster software like Photoshop or Paint, but if that's what you are comfortable with, then go for it.
+
+You can even use DriveWorks form designer if it's easier then learning a new software. Just remember we are focusing on make a low fidelity mockup, not a final product.
+-->
 
 ---
 
