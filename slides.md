@@ -919,12 +919,9 @@ If different user groups have very different journeys then you may wish to have 
 
 # Flow Diagram Software
 
-
-<div class="flex flex-col space-y-16">
-  <img src="/powerpoint-2.svg" alt="PowerPoint" class="h-20 mt-4" />
-  <img src="/Lucidchart.svg" alt="LucidChart" class="h-20 mt-4" />
-  <img src="/figma.svg" alt="Figma" class="h-20 mt-4" />
-</div>
+<img src="/powerpoint.png" alt="PowerPoint" class="h-20 block mt-13" />
+<img src="/Lucidchart.svg" alt="LucidChart" class="h-20 block mt-13" />
+<img src="/figma.svg" alt="Figma" class="h-20 block mt-13" />
 
 
 <!-- 
