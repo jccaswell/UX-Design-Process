@@ -865,38 +865,52 @@ Brainstorm is all about letting ideas flow quickly, not worrying about the detai
 
 Feel free to jump in and ideate or sketch on any ideas you have. Whether it be the process as a whole, the form layout, or even the controls themselves. 
 
-This phase is called conceptual design, or "the big picture."
+Spend a few minutes on each idea, and then move on to the next.
+
+Once you are done, take a step back and see if any of the ideas stand out to you, or if you can combine them into something better.
 -->
 
 
 ---
+layout: image-right
+image: /flowchart.png
+backgroundSize: contain
+---
 
 # Flow Diagrams
 
+Hollistic map of the user experience
 
+<v-click>
 
-<!-- 
+Pen and paper, LucidChart, PowerPoint, whatever you are comfortable with
 
-Start with high level concepts and work your way down to the details.
+</v-click><v-click>
 
-We're not ready to get into the nitty gritty of colors, fonts, and layout of the form just yet.
+- Map the flow of the user through the implementation
 
-Start mapping how users would interact with your configurator, and how different pages/forms interact with each other.
+</v-click><v-click>
 
-User flow and user states are not that different from specification flow and states. In fact, many of these states may be the same: submitted for approval, awaiting CAD generation, etc.
+- States and transitions similar to specification flow 
 
-Using technology you are comfortable with, make a high level structure of the configurator. How do different pages/forms interact with each other? What sources do they send or receive information from?
-Make sure to include, not just pages, but also states the user may be in, such as "waiting for approval" or "received email confirmation." Sometimes these can map to specification states.
+</v-click><v-click>
 
-- Pen and paper, LucidChart, PowerPoint, whatever you are comfortable with
-- Map the flow of the user through the configurator
-  - Remember, map their experience, not just the pages
-- Include holistic view, including spec transitions, approvals, etc.
-- What sources do they send or receive information from? 3D Preview, SQL, API, etc
-- Include and flag nodes that still require manual effort
 - Collect feedback from stakeholders
 - ITERATE ITERATE ITERATE
 
+</v-click>
+
+<!-- 
+Now we focus on the flow of the user through the implementation.
+
+[click] Using technology you are comfortable with, make a high level structure of the configurator. 
+How do different pages/forms interact with each other? What sources do they send or receive information from?
+
+[click] Remember, map their experience, not just the pages. This means documenting what caused them to decide to use it, what software might they be accessing the link from, what do they expect to get in return, and when.
+
+[click] User flow and user states are not that different from specification flow and states. In fact, many of these states may be the same: submitted for approval, awaiting CAD generation, etc.
+
+[click] Make sure to include your other stakeholders in this process, and iterate on the design as needed.
 -->
 
 ---
