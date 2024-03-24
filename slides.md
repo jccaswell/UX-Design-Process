@@ -1116,11 +1116,32 @@ As such, using a purpose built tool is recommended. Figma and Adobe XD are indus
 6. Iterate, iterate, iterate
 7. Finally, save as a pdf and get it signed off by stakeholders -->
 
+
+---
+layout: section
 ---
 
 # 7. Implement
 
-<!-- Use your component guide to make a form that has an example of each of the items (or groups) you need.
+Finalize and build
+
+<!-- 
+
+This is it, the final step. It's time to implement everything you have designed.
+
+-->
+
+---
+layout: image
+image: /DW-Form-Designer.png
+width: 80%;
+---
+
+# Implement
+
+<!-- 
+
+Use your component guide to make a form that has an example of each of the items (or groups) you need.
 
 Use variables wherever possible to keep things consistent. If you set the standard width of a control via a variable you can edit it from anywhere as opposed to finding the original control and changing it.
 
@@ -1141,11 +1162,14 @@ Test it against a small group of users, and get feedback before rolling it out t
 
 # 8. Feedback loop
 
+<img src="/feedback.jpg" class="h-110 mx-auto" />
+
 <!-- Your job is never done: you can always take feedback and improve.
 
 More objectively, the goal of this exercise was to make things better for your users, and how do you know if you have done that if you don't ask them?
 
-If you had an existing configurator, maybe you decided to take baby steps and only change a few things. You can collect feedback and use it to decide what to change next and how, making sure you stay true to your objectives, priorities, and principles. -->
+You can collect feedback and use it to decide what to change next and how, making sure you stay true to your objectives, priorities, and principles. 
+-->
 
 ---
 
