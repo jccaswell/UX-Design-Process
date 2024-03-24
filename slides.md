@@ -423,6 +423,11 @@ layout: quote
 <!-- “When UX doesn’t consider ALL users, shouldn’t it be known as “SOME User Experience” or… SUX?” -->
 
 ---
+layout: image
+image: /Contrast-Example.jpg
+alt: Contrast Example
+height: 60%
+---
 
 # Accessibility
 
@@ -431,8 +436,6 @@ Readability and simplicity are key
 
 - Use large, easy to read fonts
 - Use high contrast colors
-
-<img src="/Contrast-Example.jpg" alt="Contrast Example" class="h-75 ml-30 mt-2">
 
 
 <!--
@@ -474,12 +477,17 @@ Don't rely on color alone to denote meaning
 -->
 
 ---
+layout: image
+image: /paint.png
+alt: Paint colors with names
+height: 70%
+---
 
 # Accessibility
 
 Don't rely on color alone to denote meaning
 
-<img src="/paint.png" alt="Paint colors with names" class="h-80">
+<!-- <img src="/paint.png" alt="Paint colors with names" class="h-80"> -->
 
 
 <!--
