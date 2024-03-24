@@ -628,7 +628,7 @@ During this process you may identify several goals. So...
 
 ---
 
-# 1.2 Identify Priorities
+# Priorities
 
 Priorities dictate focus
 
@@ -652,7 +652,7 @@ image: /Audience.svg
 backgroundSize: contain
 ---
 
-# 1.3 Identify Audience
+# Audience
 
 Define who your audience is, and what you plan on improving for them
 
@@ -680,7 +680,7 @@ You will likely use the groups you identify here as the baiss for Teams in Drive
 
 ---
 
-# 1.4 Identify Resources
+# Resources
 
 No resources, no progress
 
@@ -715,147 +715,149 @@ layout: section
 Users, Competitors, Alternatives
 
 <!-- 
+We've finished identifying our goals, audience, and resources. 
+
 Our next step in the design journey is research.
 
 We need to find out more about our users, our competitors, and what alternatives are out there.
  -->
 
----
-
-# 2.1 Research Users
-
-Ask lots of questions
-
-- Who are your prospective users?
-
-  - Motivations / Goals
-  - Existing solution / workflow
-  - Pain points
-  - Accessibility needs
-  - Devices / browsers
-  - Region, language, timezone, currency
-
 
 --- 
 layout: image
-image: /User Persona.svg
+image: /user-persona.svg
 ---
 
-# 2.1 User Personas
+# Users
+
+User Personas document crucial info
+
+<!-- 
+In a previous phase we, with our manegerial hat on, identified the groups we wish to target.
+Now it is time to put on our detective hat and find out what we can about them.
+
+What are their motivations and goals in their role?
+What is their existing solution or workflow and what challenges do they face with it?
+
+
+Based on this we can focus our efforts on what will make the biggest impact for them, which will go a long way towards their willingness to adopt, or keep up with the new system.
+
+It may also be helpful to identify if they have any accessibility needs, what devices and browsers they are using, and what region, language, timezone, and currency they use. 
+
+You will, of course, wish to take note of the information you have gathered about your users.
+
+In UX design, sometimes it's helpful to create cards that represent your users, or user personas.
+Nice term to keep in your pocket if you end up working with a graphic designer, however, any way you can capture this information is fine.
+ -->
+
+---
+
+# Users
+
+Why should they use your configurator?
+
+- "It is an improvement over their existing solution because..."
+- "This will save them time/effort/money because..."
+
+<!-- 
+Try and answer the question: Why should they use your configurator?
+
+Your answer may be something like "It is an improvement over their existing solution because..." or "This will save them time/effort/money because..."
+
+This should tie directly in with the goals you identified earlier, but this time from the perspective of the user.
+ -->
 
 
 ---
 
-# 2.2 Competitors / Alternatives
+# Competitors / Alternatives
+
+What's the other guy up to?
 
 - Research the competitors and compare their sites
 
 - What are the existing solutions?
 
+<!-- 
 
+Every designer, mechanical UX, or otherwise, takes inspiration from what is already out there.
 
-<!-- It's time to move on to the research phase. 
+See if you can find out what your competitors are using, does it seem to work for them?
 
-Now that you have identified who your users are, it's time to learn more about them.
+Take some screenshots, if you can, try them out. read up on reviews, or simply have a chat with someone who uses it.
 
-And the best way to do so is go out and ask them a bunch of questions. 
+While researching your users, you figured out what they were currently using. If they are using your existing implementation, what are they saying about it?
 
-What's their current process? What do they like about it? What do they dislike about it? What errors have they encountered? What do they wish it could do? What are their pain points, or what do they find stops or slows them down?
+We don't want to throw them off their routine: rather we want to make it better: less effort, more accessible, less errors or frustration.
 
-Do they have any accessibility needs? What devices and browsers are they using? What region, language, timezone, currency, etc?
-
-
-- Who are your prospective users?
-  - What is their motivation, goals in their role?
-  - What is their existing solution?
-    - Excel, manual process, existing configurator, competitor's configurator, etc
-    - What do they like about it?
-    - What do they dislike about it?
-    - What errors have they encountered?
-    - What do they wish it could do?
-    - What are their pain points?
-  - Do they have any accessibility needs?
-  - What devices / browsers are they using?
-  - Region, language, timezone, currency, etc
-- What are your competitors doing? / What are the alternatives?
-  - What are they doing well?
-  - What are they doing poorly?
-  - What are they (not) doing that you could do?
-  - Take screenshots, make notes
-- What applications/websites are familiar to your users?
-  - Can you use similar patterns?
- -->
+-->
 
 ---
-title: Plan
+layout: section
 ---
 
 # 3. Plan
 
-- Are you going to make incremental changes, or a complete redesign?
-  - Should you have a separate project for the UI and keep the existing project for the logic?
-- Identify who will be working on what
-  - Do you need assistance from other departments such as marketing or IT?
-- Timeline, budget, resource allocation
+Timeline, budget, resource allocation
+
+<!-- 
+
+ -->
 
 ---
-title: Conceptual Design
+
+# Planning
+
+Failing to plan is planning to fail
+
+<v-clicks>
+
+- Incremental changes, or a complete redesign?
+  - Separate project for the UI?
+- Who will be working on what
+  - Other departments
+    - Marketing, graphic design, IT
+    - Outsourcing
+- Timeline, budget, resource allocation
+
+</v-clicks>
+
+<!-- 
+Are you going to make incremental changes, or a complete redesign?
+This likely depends on the goals you identified earlier, and if there are items that need to be addressed immediately.
+
+[click] You may have multiple people collaborating, 
+Since only one person can have a single project open in Administrator at a time, you may opt to seperate the UI from the logic using specicification host controls.
+
+Not only should you plan who on your team will be responsible for which parts, but you may bring in other departments such as marketing, graphic design, or IT, or even outsource some of the work.
+  
+[click] And of course, no plan is complete with a timeline and budget.
+-->
+
+---
+layout: section
 ---
 
 # 4. Conceptual Design
 
-This is also known as "The Big Picture."
+The Big Picture
 
-1. Start by writing down notes and thoughts
-
-- What are some common complaints you have heard from users?
-
-What are some things you have seen in other sites that you are inspired by?
 
 ---
 
-### 4.2. Define the problem(s) you wish to solve and a way to measure success
+# Flow Diagrams
 
-- Reduce user input errors by implementing input validation
-- Retain users by making the configurator more modern and easy to use
-- Reduce training time by making the configurator more intuitive
-- Reduce number of rejected quotes by implementing logic to prevent invalid configurations
-- Decrease time between quote request and quote delivery by making the configurator require less manual input
 
----
+<!-- 
+It's time to document everything you have identified and discovered.
 
-### 4.3. Create User Personas: Typically 1 per user type (Team)
+Start with high level concepts and work your way down to the details.
 
-- What is their role / relationship to the company?
-- Which groups, projects, or forms should they have access to?
-- Why should they use your configurator?
-  - "It is an improvement over their existing solution because..."
-  - "This will save them time/effort/money because..."
-- Review this with stakeholders to ensure it matches their understanding
+We're not ready to get into the nitty gritty of colors, fonts, and layout of the form just yet.
 
----
+Start mapping how users would interact with your configurator, and how different pages/forms interact with each other.
 
-### 4.4. Define user workflows
-
-- what are the different things that a user can accomplish?
-- These should match the goals you defined earlier
-- Request a quote, check status of a quote, create a new project, update password, etc
-- Are there different paths that a user could take to accomplish the same thing?
-- Which Teams use each workflow?
-
----
-
-### 4.5. Define Design Principles and Guidelines
-
-Use everything you have gathered so far and work with other stakeholders on defining high-level design principles and guidelines that will guide the design process now and in the future.
-
-- "We want to make the configurator as easy to use as possible"
-- "We want to match the design of our website"
-- "We want to ensure that the configurator is accessible to users in North America"
-
----
-
-### 4.6. Draw a flow diagram
+User flow and user states are not that different from specification flow and states. In fact, many of these states may be the same: submitted for approval, awaiting CAD generation, etc.
 
 Using technology you are comfortable with, make a high level structure of the configurator. How do different pages/forms interact with each other? What sources do they send or receive information from?
 Make sure to include, not just pages, but also states the user may be in, such as "waiting for approval" or "received email confirmation." Sometimes these can map to specification states.
@@ -868,6 +870,8 @@ Make sure to include, not just pages, but also states the user may be in, such a
 - Include and flag nodes that still require manual effort
 - Collect feedback from stakeholders
 - ITERATE ITERATE ITERATE
+
+-->
 
 ---
 
@@ -911,7 +915,7 @@ Use technology you are comfortable with. Pen and paper, whiteboard, cut out piec
 
 # 6. Prototype
 
-A prototype is a high fidelity mockup of the various pages and controls. It is meant to be a representation of the final product, outside of DriveWorks. It is meant to be a way to quickly and easily visualize the layout and functionality of the configurator.
+<!-- A prototype is a high fidelity mockup of the various pages and controls. It is meant to be a representation of the final product, outside of DriveWorks. It is meant to be a way to quickly and easily visualize the layout and functionality of the configurator.
 
 The flow diagram, wireframe, and even the user persona were meant to quickly ideate and iterate rather then needing to be polished. The prototype is meant to be polished and signed off by stakeholders.
 
@@ -930,13 +934,13 @@ As such, using a purpose built tool is recommended. Figma and Adobe XD are indus
      - mobile, laptop, half screen, etc
 5. Get feedback from stakeholders
 6. Iterate, iterate, iterate
-7. Finally, save as a pdf and get it signed off by stakeholders
+7. Finally, save as a pdf and get it signed off by stakeholders -->
 
 ---
 
 # Figma
 
-- Industry leading software for UI design
+<!-- - Industry leading software for UI design
 - Quickly iterate through ideas
 - Focus on design while isolating from minutia of implementation
 - Excels at collaboration
@@ -954,13 +958,13 @@ As such, using a purpose built tool is recommended. Figma and Adobe XD are indus
   - Metadata tags
 - Frames in Figma are meant to group items: encouraged to use same thought process with Frame Controls
 - You can create a navigable website to test with users
-- Component Guide can be made from "components" like master files in DriveWorks
+- Component Guide can be made from "components" like master files in DriveWorks -->
 
 ---
 
 # 7. Implement
 
-Use your component guide to make a form that has an example of each of the items (or groups) you need.
+<!-- Use your component guide to make a form that has an example of each of the items (or groups) you need.
 
 Use variables wherever possible to keep things consistent. If you set the standard width of a control via a variable you can edit it from anywhere as opposed to finding the original control and changing it.
 
@@ -975,21 +979,21 @@ As a general rule, all of the functionality of the forms should work with CSS di
 
 If this is available via the web, make sure to test it on different devices and browsers. (Mostly applicable if you are using CSS)
 
-Test it against a small group of users, and get feedback before rolling it out to everyone.
+Test it against a small group of users, and get feedback before rolling it out to everyone. -->
 
 ---
 
 # 8. Feedback loop
 
-Your job is never done: you can always take feedback and improve.
+<!-- Your job is never done: you can always take feedback and improve.
 
 More objectively, the goal of this exercise was to make things better for your users, and how do you know if you have done that if you don't ask them?
 
-If you had an existing configurator, maybe you decided to take baby steps and only change a few things. You can collect feedback and use it to decide what to change next and how, making sure you stay true to your objectives, priorities, and principles.
+If you had an existing configurator, maybe you decided to take baby steps and only change a few things. You can collect feedback and use it to decide what to change next and how, making sure you stay true to your objectives, priorities, and principles. -->
 
 ---
 
-# Design Process Roadmap
+# Design Process Recap
 
 
 1. [Identify](#1-identify) - Goals, Priorities, Audience, Resources
@@ -1008,41 +1012,41 @@ If you had an existing configurator, maybe you decided to take baby steps and on
 <img src="/StreamlineArrowRoadmap.svg" alt="Roadmap" class="h-80 absolute bottom-20 right-10" />
 
 <!-- 
-We'll go through each of these steps in detail. 
 
-[click] One: Identify your goals, audience, and priorities
+And that's our journey from cradle to grave.
 
-[click] Two: Research your users, competitors, and alternatives
+[click] we started by identifing our goals, audience, and priorities
 
-[click] Three: Plan your project, timeline, and resources
+[click] we researched our users and competitors
 
-[click] Four: Conceptualize: brainstorm, sketch, and ideate
+[click] we created a plan, and a timeline to follow
 
-[click] Five: Wireframe: create quick low fidelity mockups of your pages
+[click] we brainstormed, and doodled up some ideas
 
-[click] Then, build a prototype to get feedback from stakeholders
+[click] then we wireframed the different pages and controls
 
-[click] Now you're ready to Implement your design in DriveWorks
+[click] Using software such as Figma, we made a prototype that would be the blueprint for our implementation
 
-[click] Lastly, don't forget to continuously get feedback to improve your design
+[click] lastly, we implemented our design in DriveWorks. making use of variables and new features such as CSS
+
+[click] Now that it's out in the wild, we can collect feedback and never stop improving
  -->
 
 ---
+layout: end
+---
 
-# Closing Remarks
 
-### Key takeaways:
+# Thank you!
 
-- Planning: Ensure that you have a clear understanding of your goals, priorities, audience, and resources before you begin.
+Joseph C. Caswell
 
-- Conceptual Design: Freeform brainstorming, sketching, and ideation. This is the time to think big and explore possibilities.
+<img src="/tpm_logo_white_transparent.png" alt="TPM Logo" class="absolute m-6 left-0 bottom-0 h-20" />
 
-- Flow Diagram: Map the flow of the user through the configurator, include states and information sources, iterate based on stakeholder feedback.
+<!-- 
+Thank you all for attending this virtual session at DriveWork! 
 
-- Wireframe: Focus on layout and functionality, group controls, display necessary information, gather feedback from stakeholders.
+I hope you learned a lot about accessibility, UX and UI design, why they are important, and how to get started.
 
-- Prototype: Create a high-fidelity mockup of the configurator, design controls and groupings, iterate based on feedback, obtain stakeholder approval.
-
-- Implementation: Use the component guide to build the form, utilize variables for consistency, consider CSS for advanced styling, test on different devices and browsers.
-
-Remember, the UX development process is iterative. Keep refining and improving for a better user experience.
+Don't forget to check out the other sessions in the DriveWorks World event app!
+-->
