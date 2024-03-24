@@ -1080,7 +1080,10 @@ layout: section
 # 6. Prototype
 
 <!-- 
-Once we, and our stakeholders, are happy with the wireframe, it is time to make a high fidelity mockup of the various pages and controls. 
+Once we, and our stakeholders, are happy with the wireframe, it is time to make a prototype.
+
+A prototype is a high fidelity mockup of the various pages and controls. 
+It is meant to be a way to quickly and easily visualize the layout and functionality of the configurator.
 
 Just like making a mechanical prototype, this is meant to be a representation of the final product to test out.
 -->
@@ -1091,16 +1094,59 @@ image: /wireframe-vs-mockup.png
 width: 80%;
 ---
 
-# Prototype
+# Wireframe vs Prototype
 
-<!--
+<!-- 
+When making the wireframe we focused layout and function. We may have used X's or other placeholders to represent content, or we may have had a draft version. 
 
-A prototype is a high fidelity mockup of the various pages and controls. It is meant to be a representation of the final product, outside of DriveWorks. It is meant to be a way to quickly and easily visualize the layout and functionality of the configurator.
+With the prototype we are making a full, high fidelity mockup of our site which will be used as the basis for the final product.
+
+Now it is time to marry in the branding, colors, fonts, and finalize our content and verbiage. 
 
 The flow diagram, wireframe, and even the user persona were meant to quickly ideate and iterate rather then needing to be polished. The prototype is meant to be polished and signed off by stakeholders.
 
 This is similar to an engineering drawing: the full specification of the product, but not the product itself.
+-->
 
+
+---
+layout: image
+image: /style-guide2.png
+width: auto;
+---
+
+# Branding and Style Guide
+
+<!-- 
+Most companies have a branding guide, such as this one, that specifies the colors, fonts, logos, etc that should be used in any marketing material. We should reach out to them and get a copy of it for us to follow as well as any other design guidelines they may have.
+-->
+
+---
+layout: image-left
+image: /component-guide.png
+---
+
+# Components
+
+- Start small and work up
+- Use variables to keep things consistent
+- Consider different sizes and states
+
+<!-- 
+Our next task is to design the individual controls. 
+
+In DriveWorks we have many of these form controls already, but we may wish to define common sizing and spacing. We can also group controls together into a larger component, such as pairing a text input with a validation icon and error message label. 
+
+In the wireframe exercise we focused on larger groups of multiple components. We can do the same thing here as well, this time filling in the content as well. 
+
+This is an example component guide where we took driveworks form controls and modified them to fit that company's brand guidelines. Also noting the different states they could be in, such as on hover, focus, or disabled.
+
+If we are working in Figma or Adobe XD, we can make a master for each component, and use that master throughout the design. This way if we need to change the color of a button, we can do it in one place and it will update everywhere and when it is time to implement we can pull the sizing and styling from here.
+-->
+
+---
+
+<!--
 As such, using a purpose built tool is recommended. Figma and Adobe XD are industry leaders, but if needed, Indesign, Publisher, Photoshop, or even PowerPoint can be used.
 
 1. Using your brand guidelines, start by setting the fonts, colors, logos, etc.
