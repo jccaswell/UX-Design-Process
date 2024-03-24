@@ -1045,32 +1045,8 @@ You can even use DriveWorks form designer if it's easier then learning a new sof
 -->
 
 ---
-
-# 6. Prototype
-
-
-
-<!-- A prototype is a high fidelity mockup of the various pages and controls. It is meant to be a representation of the final product, outside of DriveWorks. It is meant to be a way to quickly and easily visualize the layout and functionality of the configurator.
-
-The flow diagram, wireframe, and even the user persona were meant to quickly ideate and iterate rather then needing to be polished. The prototype is meant to be polished and signed off by stakeholders.
-
-This is similar to an engineering drawing: the full specification of the product, but not the product itself.
-
-As such, using a purpose built tool is recommended. Figma and Adobe XD are industry leaders, but if needed, Indesign, Publisher, Photoshop, or even PowerPoint can be used.
-
-1. Using your brand guidelines, start by setting the fonts, colors, logos, etc.
-2. Start with the overall layout (header, sidebar, main content, etc.)
-3. Design the controls and groupings - the component guide
-   - DriveWorks gives several types of inputs, but you may have multiple label types for example (heading, validation, information, etc)
-   - Make a master for each component, and use that master throughout the design
-4. Make a prototype for each of your distinct pages / forms
-   - You don't have to mockup each page, but you should mockup each distinct layout
-   - Make additional prototypes for different screen sizes (if applicable)
-     - mobile, laptop, half screen, etc
-5. Get feedback from stakeholders
-6. Iterate, iterate, iterate
-7. Finally, save as a pdf and get it signed off by stakeholders -->
-
+layout: image
+image: /figma-example.png
 ---
 
 # Figma
@@ -1094,6 +1070,49 @@ As such, using a purpose built tool is recommended. Figma and Adobe XD are indus
 - Frames in Figma are meant to group items: encouraged to use same thought process with Frame Controls
 - You can create a navigable website to test with users
 - Component Guide can be made from "components" like master files in DriveWorks -->
+
+---
+layout: section
+---
+
+# 6. Prototype
+
+<!-- 
+Once we, and our stakeholders, are happy with the wireframe, it is time to make a high fidelity mockup of the various pages and controls. 
+
+Just like making a mechanical prototype, this is meant to be a representation of the final product to test out.
+-->
+
+---
+layout: image
+image: /wireframe-vs-mockup.png
+width: 80%;
+---
+
+# Prototype
+
+<!--
+
+A prototype is a high fidelity mockup of the various pages and controls. It is meant to be a representation of the final product, outside of DriveWorks. It is meant to be a way to quickly and easily visualize the layout and functionality of the configurator.
+
+The flow diagram, wireframe, and even the user persona were meant to quickly ideate and iterate rather then needing to be polished. The prototype is meant to be polished and signed off by stakeholders.
+
+This is similar to an engineering drawing: the full specification of the product, but not the product itself.
+
+As such, using a purpose built tool is recommended. Figma and Adobe XD are industry leaders, but if needed, Indesign, Publisher, Photoshop, or even PowerPoint can be used.
+
+1. Using your brand guidelines, start by setting the fonts, colors, logos, etc.
+2. Start with the overall layout (header, sidebar, main content, etc.)
+3. Design the controls and groupings - the component guide
+   - DriveWorks gives several types of inputs, but you may have multiple label types for example (heading, validation, information, etc)
+   - Make a master for each component, and use that master throughout the design
+4. Make a prototype for each of your distinct pages / forms
+   - You don't have to mockup each page, but you should mockup each distinct layout
+   - Make additional prototypes for different screen sizes (if applicable)
+     - mobile, laptop, half screen, etc
+5. Get feedback from stakeholders
+6. Iterate, iterate, iterate
+7. Finally, save as a pdf and get it signed off by stakeholders -->
 
 ---
 
