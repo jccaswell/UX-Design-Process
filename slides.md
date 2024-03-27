@@ -802,7 +802,7 @@ layout: section
 Timeline, budget, resource allocation
 
 <!-- 
-
+Before starting any project it is important to have a plan including a timeline, budget, and resource allocation.
  -->
 
 ---
@@ -885,6 +885,10 @@ Hollistic map of the user experience
 <v-click>
 
 - Map the flow of the user through the implementation
+
+</v-click><v-click>
+
+- Entire Journey, not just the pages
 
 </v-click><v-click>
 
@@ -1276,10 +1280,9 @@ You can collect feedback and use it to decide what to change next and how, makin
 # Design Process Recap
 
 
-1. [Identify](#1-identify) - Goals, Priorities, Audience, Resources
-
 <v-clicks>
 
+1. [Identify](#1-identify) - Goals, Priorities, Audience, Resources
 2. [Research](#2-research) - Users, Competitors, Alternatives
 3. [Plan](#3-plan) - Project, Timeline, Resources
 4. [Conceptual Design](#4-conceptual-design) - Brainstorm, Sketch, Ideate
@@ -1289,13 +1292,13 @@ You can collect feedback and use it to decide what to change next and how, makin
 8. [Feedback loop](#8-feedback-loop) - Continuously improve
 </v-clicks>
 
-<img src="/StreamlineArrowRoadmap.svg" alt="Roadmap" class="h-80 absolute bottom-20 right-60" />
+<img src="/StreamlineArrowRoadmap.svg" alt="Roadmap" class="h-80 absolute bottom-20 right-50" />
 
 <!-- 
 
 And that's our journey from cradle to grave.
 
-[click] we started by identifing our goals, audience, and priorities
+[click] we started by identifying our goals, audience, and priorities
 
 [click] we researched our users and competitors
 
